@@ -2,17 +2,17 @@
 
   "description": "Makes YouTube easier on the eyes by making the background darker, and some other various changes to make the site readable with a darker background.",
   "manifest_version": 1,
-  "name": "Youtube-Lights-Out",
+  "name": "YouTube-Lights-Out",
   "version": "1.0",
-  "homepage_url": "https://github.com/mdn/webextensions-examples/tree/master/borderify",
+  "homepage_url": "",
   "icons": {
-    "48": "icons/border-48.png"
+  
   },
 
   "content_scripts": [
     {
-      "matches": ["*://*.mozilla.org/*"],
-      "js": ["borderify.js"]
+      "matches": ["youtube.com"],
+      "js": ["colorchanges.js"]
     }
   ]
 
